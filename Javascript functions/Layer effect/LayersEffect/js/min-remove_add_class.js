@@ -1,0 +1,1 @@
+function addClass(e,t){var n=e.className;if(n){e.className=n+" "+t}else{e.className=t}}function removeClass(e,t){var n=e.className;var r=n.split(" ");for(i=0;i<r.length;i++){if(t==r[i]){r[i];index=r.indexOf(r[i]);if(index>-1){r.splice(index,1);e.className=r}}}}

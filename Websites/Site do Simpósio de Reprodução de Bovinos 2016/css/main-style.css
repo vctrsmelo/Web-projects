@@ -1,0 +1,120 @@
+@font-face {
+		 font-family: helveticaneue;
+		 src: url('../fonts/HelveticaNeueLTStd-UltLt.otf');
+}
+
+*, *:before, *:after {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+  -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {height:100%;}
+
+body{
+
+	background: #fff;
+
+}
+
+
+.cont{
+
+	box-shadow: 6px 5px 3px #ccc;
+
+}
+
+header{
+
+  padding:40pt 0pt;
+  min-height:250px;
+  width:100%;
+
+	font-family: "helveticaneue", Helvetica, Arial, sans-serif;
+  text-align:center;
+  background: #68AE34;
+	color:#333;
+
+}
+
+header h1 {
+
+  margin-bottom:-5pt;
+	font-size:35pt;
+	font-weight:bold;
+
+}
+
+header p {
+
+  font-size:16pt;
+
+}
+
+.nav-justified > li > a {
+  border-right: 1px solid #51FF7E;
+}
+
+.nav-justified > li > a:hover {
+  background-color: #fff;
+}
+
+
+.nav-justified > li:last-of-type a {
+
+	border-right:none;
+
+}
+
+.global{
+	min-height:100%;
+	position:relative;
+	margin:auto;
+
+}
+
+.wrap{
+
+	max-width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+main{
+
+	overflow:hidden;
+	padding-bottom:80px;
+	margin-top:-41px;
+
+}
+
+footer{
+
+	background: #303030;
+	position:absolute;
+	bottom:0;
+	width:100%;
+
+}
+.assinatura-dev{
+
+	float:right;
+
+}
+
+.assinatura-dev, .assinatura-dev a{
+	color:#E8E8E8;
+	text-decoration:none;
+	line-height:50px;
+	padding-right:10px;
+	font-size:10pt;
+}
+
+.assinatura-dev a{
+
+	font-weight: bold;
+
+}

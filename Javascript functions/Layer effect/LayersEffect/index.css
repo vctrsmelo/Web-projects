@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	
+	height:100%;
+}
+
+#efc_container{
+	width:500px;
+	height:600px;
+	background:#ccc;
+	z-index:2;
+}
+
+.efc_div{
+	width:200px;
+	height:300px;
+	/*background-size: 130px 200px; /*Ao alterar a altura e largura, alterar aqui tamb�m caso a imagem seja maior que a div*/
+	
+	float:left;
+	position:absolute;
+	z-index:2;
+	
+}
+.efc_div:hover{
+	margin-left:20px;
+}
+
+.efc_div:nth-child(1){
+	background-image: url("../img/poster1.jpg"); /*Alterar o link da imagem*/
+}
+	
+.efc_div:nth-child(2){
+	background-image: url("../img/poster2.jpg"); /*Alterar o link da imagem*/
+}
+.efc_div:nth-child(3){
+	background-image: url("../img/poster3.jpg"); /*Alterar o link da imagem*/
+}
+
+.efc_div:nth-child(4){
+	background-image: url("../img/poster4.jpg"); /*Alterar o link da imagem*/
+}
+.efc_div:nth-child(5){
+	background-image: url("../img/poster5.jpg"); /*Alterar o link da imagem*/
+}
+
+/*A cada div a mais criada, é preciso criar mais definições aqui no CSS, por exemplo:
+
+Ao criar uma nova div, criar:
+
+.efc_div:nth-child(6){
+	background-image: url("../img/nomeDaImagem.jpg");
+}
+
+E a cada nova div, apenas trocar o número dentro dos parênteses (7), (8), (9), etc. */

@@ -1,0 +1,61 @@
+.thumb{
+
+  margin-bottom:20px;
+
+}
+
+.thumb h3{
+
+  text-align:center;
+  display:block;
+  margin-bottom:30px;
+
+}
+
+.orientacoes{
+
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom:10px;
+
+}
+
+.valores{
+
+  padding-bottom:10px;
+
+}
+
+@media (min-width: 768px){
+
+  .valores{
+    border-right: 1px dashed #e1e1e1;
+  }
+}
+
+.info-conta{
+
+  display:block;
+  width:200px;
+  margin:auto;
+  font-style:italic;
+
+
+}
+
+nav{
+
+  margin-bottom:40px;
+
+}
+
+.form-container{
+  border-top: 1px solid #e1e1e1;
+  text-align:center;
+
+}
+
+iframe{
+
+  margin-top:20px;
+
+}

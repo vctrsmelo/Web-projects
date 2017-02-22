@@ -1,0 +1,71 @@
+
+.cow-img{
+
+	background-color: #ccc;margin-right: auto;
+  margin-left: auto;
+	max-width:100%;
+	max-height:100%;
+	margin-top:10px;
+
+}
+
+.thumbs{
+
+	margin-top:25px;
+	width:100%;
+
+}
+
+.thumb{
+
+	overflow:auto;
+
+}
+
+.thumb > h3{
+
+	text-align:center;
+  margin-bottom:30px;
+  display: block;
+
+}
+
+.thumb-imgs-container{
+
+	width: 100%;
+
+}
+
+.thumb-img{
+
+  padding-bottom:25px;
+  width:50%;
+  float:right;
+
+}
+
+.thumb-img-destaque{
+
+	padding-bottom:25px;
+	width:100%;
+
+}
+
+.thumb-img img, .thumb-img-destaque img{
+
+
+	  width: auto;
+	  max-width: 100%;
+	  height: auto;
+		max-height:100%;
+		margin-right:10px;
+		float:right;
+
+}
+
+.thumb-img-destaque img{
+
+	margin: auto;
+	max-width: 80%;
+
+}

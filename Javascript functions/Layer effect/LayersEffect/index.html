@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<link type="text/css" href="css/index.css" rel="stylesheet"/>
+<script type="text/javascript" src="js/min-remove_add_class.js" /></script>
+<script type="text/javascript" src="js/min-functions.js" /></script>
+<script type="text/javascript">
+	
+	window.onload = function(){//Quando a página carregar...
+		
+		centralizarContainer();//centraliza o container
+		
+		
+		//Apenas um dos três abaixo deve estar ativo: 
+		
+		centralizarDivs("esquerda");//Posiciona as divs na horizontal e vertical. Dentro dos parênteses, colocar: "cima","baixo","esquerda" ou "direita". Isto indica por onde ele começará a posicionar as divs.
+		//centralizarDivsVertical();//Posiciona as divs apenas na vertical.
+		//centralizarDivsHorizontal();//Posiciona as divs apenas na horizontal.
+	};
+	
+	window.onresize = function(){//Quando diminuir ou aumentar a tela do navegador
+		centralizarContainer();//centraliza o container
+	}
+
+</script>
+</head>
+
+<body>
+
+<!-- Efeito começa aqui -->
+<div id="efc_container">
+    <div class="efc_div efc_destaque" onclick="" onmouseover="hoverDivs(this)" onmouseout="outDivs(this)"></div><!-- IMAGEM do centro -->
+    <div class="efc_div" onclick="" onmouseover="hoverDivs(this)" onmouseout="outDivs(this)"></div>
+    <div class="efc_div" onclick="" onmouseover="hoverDivs(this)" onmouseout="outDivs(this)"></div>
+    <div class="efc_div" onclick="" onmouseover="hoverDivs(this)" onmouseout="outDivs(this)"></div>
+    <div class="efc_div" onclick="" onmouseover="hoverDivs(this)" onmouseout="outDivs(this)"></div> 
+</div>
+</body>
+</html>
